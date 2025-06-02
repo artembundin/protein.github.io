@@ -1,0 +1,30 @@
+.aboutus {
+
+}
+
+.aboutus_info {
+	display: flex;
+	align-items: center;
+}
+
+
+.aboutus_info_img {
+	max-width: 100%;
+}
+.aboutus_info_text {
+	max-width: 500px;
+	text-align: right;
+	padding: 15px;
+}
+
+.aboutus_info_text h3 {
+	font-size: min(5vw, 70px);
+	font-weight: 700;
+	color: #98784d;
+}
+
+.aboutus_info_text p {
+	font-size: min(1.5vw, 25px);
+	font-weight: 400;
+	color: #c1b19b;
+}

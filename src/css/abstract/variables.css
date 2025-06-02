@@ -1,0 +1,51 @@
+:root {
+	--container-width: 1300px;
+	--container-padding-x: 15px;
+
+	--transition-duration: 0.2s;
+
+	--header-height: 90px;
+
+
+  --color-primary: #98784d;
+  --color-secondary: #c1b19b;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	background-color: #fff;
+	line-height: 1.5;
+	color: #333;
+}
+
+.container {
+	max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+	margin-inline: auto;
+	padding-inline: var(--container-padding-x);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+	transition-duration: var(--transition-duration);
+}
+
+a {
+	color: #c1b19b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #98784d;
+}
+
+p {
+	margin-block: 0;
+}
